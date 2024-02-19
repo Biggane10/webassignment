@@ -1,0 +1,334 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Introduction to HTML by Yvonne Biggane</title>
+</head>
+
+	
+<body>
+<h1>Introduction to HTML by Yvonne Biggane</h1>
+	
+	<h2>doctype</h2>
+	<p>The doctype is the language that we are going to use. We are letting the browser know what type of document to expect</p>
+	<h3>example of the code</h3>
+	<p>&lt;!doctype html&gt;&nbsp;</p>
+	
+	
+<h2>html</h2>
+	<p>HTML stands for Hyper Text Markup Language this is the language used to create a website. It describes the structure of a webpage. It tells the webpage what everything is and where it is going such as this is a headings or this is a link</p>
+	<h3>example of the code</h3>
+	<p>&lt;html&gt;&nbsp;&lt;/html&gt;</p>
+	
+	
+<h2>head</h2>
+	<p>The Head goes between the html and the body it is a container for data like title or style </p>
+	<h3>example of the code</h3>
+	<p>&lt;head&gt;&lt;/head&gt;&nbsp;</p>
+
+	
+<h2>body</h2>
+	<p>The Body tag defines the body of the webpage it includes all the headings, paragraphs, tables, lists and images </p>
+	<h3>example of the code</h3>
+	<p>&lt;body&gt;&lt;/body&gt;</p>
+	
+	
+<h2>title</h2>
+	<p>The Title defines the title of the webpage it shows on the page tab and must be text. You can only have one title in an HTML document</p>
+	<h3>example of the code</h3>
+	<p>&lt;title&gt;&lt;/title&gt;</p>
+	
+	
+<h2>p</h2>
+	<p>A paragraph always starts on a new line and the browsers automatically add some white space before and after a paragraph.</p>
+	<h3>example of the code</h3>
+	<p>&lt;p&gt;this is a para&lt;/p&gt;</p>
+	<h3>working example</h3>
+	<p>this is a para</p>
+	
+	
+<h2>span</h2>
+	<p>The span tag is an inline container used to mark up a part of a text or a part of a document.
+	The span tag is easily styled by CSS or manipulated with JavaScript using the class or id attribute.
+	The span tag is much like the div element but div is a block level element and span is an inline element.</p>
+	<h3>example of the code</h3>
+	<p>&lt;h3&gt;working example&lt;/h3&gt;<br>
+	&lt;p&gt;My eyes are &lt;span style=&quot;color:blue&quot;&gt;blue&lt;/span&gt;&lt;/p&gt;</p>
+	<h3>working example</h3>
+	<p>My eyes are <span style="color:blue">blue</span></p>
+	
+	
+<h2>div</h2>
+	<p>The div tag defines a division or a section in an HTML document.
+	The div tag is used as a container for HTML elements which is then styled with CSS or manipulated with JavaScript.
+	The div tag is easily styled by using the class or id attribute.
+	Any sort of content can be put inside the div tag.
+	The browsers always place a line break before and after the div element.</p>
+	<h3>example of the code</h3>
+	<p>&lt;div&gt;<br>
+	&lt;h2&gt;Dublin&lt;/h2&gt;<br>
+	&lt;p&gt;Dublin is the capital city of Ireland.&lt;/p&gt;<br>
+	&lt;p&gt;Dublin has changed over the years it is a youthful city with a growing population.&lt;/p&gt;<br>
+	&lt;/div&gt;</p>
+	<h3>working example</h3>
+	<div>
+  	<h2>Dublin</h2>
+  	<p>Dublin is the capital city of Ireland.</p>
+  	<p>Dublin has changed over the years it is a youthful city with a growing population.</p>
+	</div>
+	
+	
+<h2>heading elements - h1 to h6</h2>
+	<p>The h1 to h6 tags are used to define HTML headings.
+	h1 defines the most important heading and h6 defines the least important heading.</p>
+	<h3>example of the code</h3>
+	<p>&lt;h1&gt;My Name is Yvonne&lt;/h1&gt;<br>
+	&lt;h2&gt;I live in Ireland&lt;/h2&gt;<br>
+	&lt;h3&gt;In a town called Kilmallock&lt;/h3&gt;<br>
+	&lt;h4&gt;I have one daughter called Lauren&lt;/h4&gt;<br>
+	&lt;h5&gt;I enjoy travelling &lt;/h5&gt;<br>
+	&lt;h6&gt;My dream is to retire to the sun&lt;/h6&gt;</p>
+	<h3>working example</h3>
+	<h1>My Name is Yvonne</h1>
+	<h2>I live in Ireland</h2>
+	<h3>In a town called Kilmallock</h3>
+	<h4>I have one daughter called Lauren</h4>
+	<h5>I enjoy travelling </h5>
+	<h6>My dream is to retire to the sun</h6>
+	
+	
+<h2>formatting elements - strong, emphasis</h2>
+	<p>Formatting elements were designed to display special types of text
+	strong to bold, em to emphaise and mark to highlight </p>
+	<h3>example of the code</h3>
+	<p>&lt;strong&gt;I need to start taking time for myself &lt;/strong&gt;<br>
+	&lt;em&gt;I really need a sun holiday ASAP&lt;/em&gt;</p>
+	<h3>working example</h3>
+	<strong>I need to start taking time for myself </strong>
+	<em>I really need a sun holiday ASAP</em>
+	
+	
+<h2>table &amp; caption</h2>
+	<p>The table tag defines an HTML table. An HTML table consists of one table element and one or more tr, th, and td elements.
+	The tr element defines a table row, the th element defines a table header, and the td element defines a table cell.
+	An HTML table may also include a caption element. The caption tag must be inserted immediately after the table tag. By default a table caption will be center-aligned above a table. However the CSS properties text-align and caption-side can be used to align and place the caption.</p>
+	<h3>example of the code</h3>
+	<p>&lt;table&gt;<br>
+	&lt;caption&gt;Opening Hours&lt;/caption&gt;<br>
+	&lt;tr&gt;<br>
+	&lt;th&gt;Monday&lt;/th&gt;<br>
+	&lt;th&gt;Tuesday&lt;/th&gt;<br>
+	&lt;th&gt;Wednesday&lt;/th&gt;<br>
+	&lt;th&gt;Thursday&lt;/th&gt;<br>
+	&lt;th&gt;Fridayday&lt;/th&gt;<br>
+	&lt;th&gt;Saturday&lt;/th&gt;<br>
+	&lt;th&gt;Sunday&lt;/th&gt;<br>
+	&lt;/tr&gt;<br>
+	&lt;tr&gt;<br>
+	&lt;td&gt;Open&lt;/td&gt;<br>
+	&lt;td&gt;Closed&lt;/td&gt;<br>
+	&lt;td&gt;Open&lt;/td&gt;<br>
+	&lt;td&gt;Open&lt;/td&gt;<br>
+	&lt;td&gt;Open&lt;/td&gt;<br>
+	&lt;td&gt;Open&lt;/td&gt;<br>
+	&lt;td&gt;Closed&lt;/td&gt;<br>
+	&lt;/tr&gt;<br>
+	&lt;tr&gt;<br>
+	&lt;td&gt;9 - 6&lt;/td&gt;<br>
+	&lt;td&gt;Closed&lt;/td&gt;<br>
+	&lt;td&gt;9 - 6&lt;/td&gt;<br>
+	&lt;td&gt;9 - 6&lt;/td&gt;<br>
+	&lt;td&gt;9 - 6&lt;/td&gt;<br>
+	&lt;td&gt;9 - 6&lt;/td&gt;<br>
+	&lt;td&gt;Closed&lt;/td&gt; <br>
+	<br>
+	&lt;/tr&gt;<br>
+	&lt;/table&gt;</p>
+	
+	
+	<h3>working example</h3>
+	<table>
+	 <caption>Opening Hours</caption>
+  <tr>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+  	<th>Thursday</th>
+  	<th>Fridayday</th>
+	<th>Saturday</th>
+  	<th>Sunday</th>
+ </tr>
+  <tr>
+    <td>Open</td>
+    <td>Closed</td>
+    <td>Open</td>
+  	<td>Open</td>
+  	<td>Open</td>
+   	<td>Open</td>
+  	<td>Closed</td>
+  	</tr>
+  <tr>
+    <td>9 - 6</td>
+    <td>Closed</td>
+    <td>9 - 6</td>
+  	<td>9 - 6</td>
+  	<td>9 - 6</td>
+  	<td>9 - 6</td>
+	<td>Closed</td>  
+  	
+  </tr>
+</table>
+	
+	
+<h2>lists</h2>
+	<p>HTML lists allow web developers to group a set of related items in lists. An unordered list starts with the ul tag. Each list item starts with the li tag.
+	The list items will be marked with bullets. An ordered list starts with the ol tag. Each list item starts with the li tag. The list items will be marked with numbers.
+	A description list is a list of terms, with a description of each term.
+	The dl tag defines the description list the dt tag defines the term name and the dd tag describes each term</p>
+	<h3>example of the code</h3>
+	<p>&lt;h2&gt;Ordered List&lt;/h2&gt;<br>
+	&lt;ol&gt;<br>
+	&lt;li&gt;Red Wine&lt;/li&gt;<br>
+	&lt;li&gt;Rose Wine&lt;/li&gt;<br>
+	&lt;li&gt;White Wine&lt;/li&gt;<br>
+	&lt;/ol&gt;<br>
+	<br>
+	&lt;h2&gt;Un-ordered List&lt;/h2&gt;<br>
+	&lt;ul&gt;<br>
+	&lt;li&gt;White Wine&lt;/li&gt;<br>
+	&lt;li&gt;Rose Wine&lt;/li&gt;<br>
+	&lt;li&gt;Red Wine&lt;/li&gt;<br>
+	&lt;/ul&gt;<br>
+	<br>
+	&lt;h2&gt;Definition List&lt;/h2&gt;<br>
+	&lt;dl&gt;<br>
+	&lt;dt&gt;White Wine&lt;/dt&gt;<br>
+	&lt;dd&gt;Made from white grapes&lt;/dd&gt;<br>
+	&lt;dt&gt;Red Wine&lt;/dt&gt;<br>
+	&lt;dd&gt;Made from purple grape&lt;/dd&gt;<br>
+	&lt;dt&gt;Rose Wine&lt;/dt&gt;<br>
+	&lt;dd&gt;A blend of white and purple grape&lt;/dd&gt;<br>
+	<br>
+	&lt;/dl&gt;</p>
+	<h3>working example</h3>
+	<h2>Ordered List</h2>
+	<ol>
+  <li>Red Wine</li>
+  <li>Rose Wine</li>
+  <li>White Wine</li>
+</ol>
+	
+	<h2>Un-ordered List</h2>
+	<ul>
+  <li>White Wine</li>
+  <li>Rose Wine</li>
+  <li>Red Wine</li>
+</ul>
+	
+	<h2>Definition List</h2>
+	<dl>
+  <dt>White Wine</dt>
+  <dd>Made from white grapes</dd>
+  <dt>Red Wine</dt>
+  <dd>Made from purple grape</dd>
+  <dt>Rose Wine</dt>
+  <dd>A blend of white and purple grape</dd>
+		
+		
+</dl>
+<h2>images &amp; alt</h2>
+	<p>The HTML img tag is used to embed an image in a web page.
+	Images are not technically inserted into a web page images are linked to web pages. The img tag creates a holding space for the referenced image.
+	The img tag is empty it contains attributes only and does not have a closing tag.
+	The img tag has two required attributes:
+	src - Specifies the path to the image
+	alt - Specifies an alternate text for the image
+	The required alt attribute specifies an alternate text for an image if the image cannot be displayed.
+	The alt attribute provides alternative information for an image if a user for some reason cannot view it because of slow connection, an error in the src attribute, or if the user uses a screen reader.</p>
+	<h3>example of the code</h3>
+	<p>&lt;img src=&quot;image/sad.jpg&quot; width=&quot;275&quot; height=&quot;183&quot; alt=&quot;&quot;/&gt;</p>
+	<h3>working example</h3>
+	<img src="image/sad.jpg" width="275" height="183" alt="sad">
+	
+	
+<h2>links</h2>
+	<p>Links are found in nearly all web pages. Links allow users to click their way from page to page. HTML links are hyperlinks. You can click on a link and jump to another document. When you move the mouse over a link the mouse arrow will turn into a little hand.</p>
+	<h3>example of the code</h3>
+	<p>&lt;a</p> href=&quot;https://www.environskincare.com/&quot;&gt;Environ&lt;/a&gt;
+<h3>working example</h3>
+<a href="https://www.environskincare.com/">Environ</a>
+
+	
+<h2>quote &amp; blockquote</h2>
+	<p>The blockquote tag specifies a section that is quoted from another source. The browsers usually indent blockquote.</p>
+	<p>The quote means "" it puts "" around a specific word. The HTML q tag defines a short quotation.</p>
+	Browsers normally insert quotation marks around the quotation.
+<h3>example of the code</h3>
+	<h3>working example</h3>
+	<p><blockquote>We are a long established beauty salon based in the heart of Charleville.
+	Sharon and her dedicated team offer the most up to date beauty and skincare treatments. 
+	We have extensive experience in all aspects of beauty and skincare.<br> 
+	Specialising in the <q>Environ</q> range, a globally recognised Professional Skincare brand.
+	We offer treatment and home care regimes to suit each client’s unique skin type and condition (following a personalised skin consultation</blockquote></p>
+	
+	
+<h2>abbreviatios</h2>
+	<p>The abbr tag defines an abbreviation or an acronym like WHO for World Health Organization or VTOS Vocational Training Orpotunities Scheme</p>
+<h3>example of code</h3>
+	<p> &lt;p&gt;The &lt;abbr title=&quot;World Health Organization&quot;&gt;WHO&lt;/abbr&gt; was founded in 1948.&lt;/p&gt;</p>
+	<h3>working example</h3>
+	<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+	
+	
+<h2>meta</h2>
+	<p>Meta is the data and it helps with engine searches to find keywords. It is always inside the head element. You will not see meta on the web page. </p>
+<h3>example of the code</h3>
+<p>&lt;meta charset=&quot;utf-8&quot;&gt;</p>
+	
+	
+<h2>forms</h2>
+	<p>The form tag is used to create an HTML form for user input.
+	The form element can contain one or more of the following form elements input output select label and option</p>
+	<h3>example of the code</h3>
+	<p>&lt;h2&gt;Join our mailing list and &lt;mark&gt;claim 10% discount&lt;/mark&gt; on your first order&lt;/h2&gt;<br>
+	&lt;form action=&quot;/action_page.php&quot;&gt;<br>
+	&lt;label for=&quot;email&quot;&gt;Enter your email:&lt;/label&gt;<br>
+	&lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot;&gt;<br>
+	&lt;input type=&quot;submit&quot;&gt;<br>
+	&lt;/form&gt;</p>
+	<h3>working example</h3>
+	<h2>Join our mailing list and <mark>claim 10% discount</mark> on your first order</h2>
+	<form action="/action_page.php">
+	<label for="email">Enter your email:</label>
+		<input type="email" id="email" name="email">
+		<input type="submit">
+	</form>
+		
+	
+<h2>special symbols and character entities</h2>
+	<p>Symbols or letters that are not present on your keyboard can be added to HTML using entities. You can use symbols like trademark, copyright, greater than and less than.</p>
+	<h3>example of the code</h3>
+	<p>&lt;h3&gt;&amp;copy;The Beauty Center 2013-2023&lt;/h3&gt;</p>
+	<p>&lt;h3&gt;Full Body Aromatherapy eases muscle tension, aches and pains &amp;euro;45&lt;/h3&gt;</p>
+	<p>&lt;h3&gt;&amp;trade;This is a Trademark symbol&lt;/h3&gt;</p>
+	<p>&lt;p&gt;&amp;reg;This is a Registered Trademark symbol&lt;/p&gt;</p>
+	<p>&lt;p&gt;5 is &amp;lt;10 (5 is less than 10)&lt;/p&gt;</p>
+	<p>&lt;h3&gt;10 is &amp;gt;5 (10 is greater than 5)&lt;/h3&gt;</p>
+	<p>&lt;h3&gt;Coffee &amp;amp; a biscuit go well together&lt;/h3&gt;</p>
+	<p>&lt;h3&gt;&amp;nbsp;Non breaking space &lt;/h3&gt;</p>
+	<p>working example</p>
+	<h3>&copy;The Beauty Center 2013-2023</h3>
+	<h3>Full Body Aromatherapy eases muscle tension, aches and pains &euro;45</h3>
+	<h3>&trade;This is a Trademark symbol</h3>
+	<p>&reg;This is a Registered Trademark symbol</p>
+	<p>5 is &lt;10 (5 is less than 10)</p>
+	<h3>10 is &gt;5 (10 is greater than 5)</h3>
+	<h3>Coffee &amp; a biscuit go well together</h3>
+	<h3>&nbsp;Non breaking space </h3>
+	
+	
+	<a href="css_assignment.html">CSS</a>
+	
+	
+</body>
+</html>

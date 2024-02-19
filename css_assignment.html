@@ -1,0 +1,266 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CSS_Cascading Style Sheets</title>
+<style type="text/css">
+	
+	body {
+	height: 1000px;	
+	background: #595959;
+	color: #121212;	
+	}	
+	
+	#wrapper{
+	width: 1500px;
+	height: 1000px;
+	border-radius: 25px 25px 0px 0px;
+	border: 1px solid #000;
+	background: #C5C5C5;
+	margin-left: auto;
+	margin-right: auto;	
+	
+	}
+	
+	header{
+	width: 1500px;
+	height: 150px;
+	padding-top: 50px;
+	border-radius: 25px 25px 0px 0px;
+	border: 3px solid #000;
+	background: #D9D9D9;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	}
+		
+	nav{
+	width: 1500px;
+	height: 120px;
+	border: 1px inset #000;
+	background-color: #DDBBBB;
+	stroke-width: 3px;
+	stroke: #000;	
+	margin: auto;
+	padding: 0px;
+	}
+	
+	a{
+	font-weight:bold;
+	text-decoration:none;
+	}
+	
+	a:link{
+	color: #000;
+	font-family: Inter;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: 600;
+	line-height: normal;	
+	text-decoration: none;
+	background-color: #2f2f2f;
+	border: thin solid;
+	border-color: fill: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), #DBB;
+	width: 150px;
+	padding-right: 3px;
+	padding-left: 3px;
+	text-align: center;
+	color: #E43862;
+	}
+	
+	a:visited{
+	color: #C5B4E3;
+	}
+	
+	a:hover, a:active, a:focus{
+	color: #C5B4E3;
+	text-decoration: underline;
+	}
+	
+	main{
+	width: 899px;	
+	height: 900px;
+	color: #121212;
+	font-family: Inter;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: 600;
+	line-height: normal;
+	float: left;
+	background-color: #F2EAEA;
+	border: dotted #EF3134
+	}
+	
+	aside{
+	width: 590px;
+	height: 900px;
+	fill: #DBB;
+	float: left;
+	font-style: italic;
+	background-color: #F5F5F5;
+	border: 2px solid #000;
+	text-align: center;
+	}
+	
+	footer{
+	clear:both;
+	width: 1500px;
+	height:100px;	
+	border-radius: 0px 0px 25px 25px;
+	background:  url("image/sad.jpg");
+	
+	}
+	
+	h1{
+	color: #121212;
+	font-family: Inter;
+	font-size: 50px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-transform: uppercase;
+	text-align: center;
+	}
+	
+	h2{
+	width: 211px;
+	height: 33px;
+	color: #121212;
+	font-family: Inter;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: 600;
+	line-height: normal;
+	}
+	
+	h3{
+	width: 775px;
+	height: 97px;
+  	color: #E43862;
+  	text-align: center;
+  	leading-trim: both;
+  	text-edge: cap;
+  	font-family: "Inknut Antiqua";
+  	font-size: 24px;
+  	font-style: normal;
+  	font-weight: 700;
+  	line-height: normal;
+  	text-transform: capitalize;
+	}
+	
+	.stand-out style{
+	width: 775px;
+	height: 97px;
+	color: #ACACAC;
+	text-align: center;
+	font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+	font-size: 32px;
+	font-style: italic;
+	font-weight: 400;
+	line-height: normal;
+	text-transform: capitalize;
+	background-color: #2f2f2f;
+	margin-left: 30px;
+	padding: 5px;
+	}
+	
+	nav ul
+		{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		}
+		
+	nav li a
+		{
+		background-color: #dddddd;
+		padding: 8px 16px;
+		text-decoration: none;
+		}
+	
+	nav li
+		{
+ 		display: inline;
+		}
+	
+	section ul{
+	list-style: url("image/bullett.png") outside square;
+			}
+	footer h2{
+		color:#F3F0F0;
+	}
+</style>
+</head>
+
+<body>
+
+<div id="wrapper">
+	
+  <header>
+	
+	  <h1>CSS-Cascading Style Sheets</h1>
+	
+  </header>
+	
+  <nav>
+	  
+    <h2>The Navigation</h2>
+		
+		<ul>
+		<li><a href="#">Link 1</a></li>
+		<li><a href="#">Link 2</a></li>
+		<li><a href="#">Link 3</a></li>
+		<li><a href="index.html">Home</a></li>
+		</ul>
+		
+  </nav>
+		
+  <main>
+	  
+		<h2>The Main</h2>
+		
+	  <section>
+		  
+		<h3>This is my H3 Tag Style</h3>
+		  
+		  
+	</section>
+		
+      <section>
+		
+		  <p>Stand-out style applies in this paragraph. Stand-out style applied here. Stand-out style applied here.</p>
+	  </section>
+	  
+	  <section>
+	  
+	  <ul>
+		  <li>Red Wine</li>
+		  <li>White Wine</li>
+		  <li>Rose Wine</li>
+		  <li>Prosecco</li>
+		  </ul>
+	  </section>
+		
+  </main>
+	  
+  <aside>
+	
+		<h2>Aside</h2>
+		
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas nihil quod soluta architecto assumenda autem, sint impedit quae ut perferendis esse, vero fugiat, magni dolores eum laudantium. Labore, facilis fugit.</p>
+		
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas nihil quod soluta architecto assumenda autem, sint impedit quae ut perferendis esse, vero fugiat, magni dolores eum laudantium. Labore, facilis fugit.</p>
+  </aside>
+	  
+  <footer>
+	  
+	  <h2>Footer &copy; Yvonne 2024</h2>
+	  
+	    
+	  
+	 
+	</footer>
+	
+	
+	
+</div>
+</body>
+</html>
